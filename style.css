@@ -1,0 +1,35 @@
+*{
+ /*    padding: 0;
+    margin: 0; */
+}
+.game{
+    width:500;
+    height: 500px;
+    border: 2px solid black;
+    text-align: center;
+}
+.item{
+    width: 31%;
+    height: 30%;
+    background-color: rgb(224, 113, 113);
+    margin: 5px;
+    float: left;
+}
+.title{
+    font-size: larger;
+    font-family:system-ui;
+    font-weight: 900;
+    background-color: rgb(183, 97, 97);
+    color: aliceblue;
+}
+.item:hover{
+   background-color: black;
+   color: white;
+}
+.item{
+    font-size:60px;
+    font-weight: 800;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
